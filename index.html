@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="encabezado" style="text-align:center">
+        <h1>BIENVENIDOS A MINIJUEGOS DELI!!! </h1>
+        <h3>Juego del Ahorcado</h3>
+        <p>Intente salvar al Humano</p>
+
+        <div id="botones" class="botones">
+            <button class="btn" id="iniciarJuego">INICIAR</button>
+            <button class="btn" id="reglas">REGLAS</button>
+        </div>
+
+        <div id="palabraNueva" style="text-align: center;">
+        
+        <input type="text" class="text-input" id="inputNuevaPalabra" placeholder="Ingrese nueva palabra">
+        <button class="btn" id="btnNuevaPalabra">Argegar Palabra</button>
+        </div>
+
+        <div id="letras" style="text-align:center">
+        <canvas id="horca" width="800" height="300"></canvas>
+        </div>
+        </div>
+
+
+
+        <footer class="footer" style="text-align: center;">
+            Todos los derechos reservados Delirion 2021-2022
+        </footer>
+    
+        <script type="text/javascript" src="canvas.js"></script>
+        <script type="text/javascript" src="ahorcado.js"></script>
+        <script type="text/javascript" src="nuevaPalabra.js"></script>
+    </div>
+</body>
+</html>
